@@ -1,23 +1,23 @@
-import logo from './logo.svg';
 import './App.css';
+import Header from './components/Header';
+import Home from './components/Home';
+import Asteroids from './components/Neo';
+import Earth from './components/Earth';
+import Weather from './components/Weather';
+import { Route,Routes } from 'react-router-dom';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Header/>
+      <div >
+        <Routes>
+          <Route path='/' element={<Home />}></Route>
+          <Route path='/neo' element={<Asteroids />}></Route>
+          <Route path='/earth' element={<Earth />}></Route>
+          <Route path='/weather' element={<Weather />}></Route>
+        </Routes>
+      </div>
     </div>
   );
 }
