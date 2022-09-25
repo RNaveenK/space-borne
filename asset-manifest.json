@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/space-borne/static/css/main.13fb2cba.css",
+    "main.js": "/space-borne/static/js/main.17a05bcf.js",
+    "static/js/787.ce3b98a9.chunk.js": "/space-borne/static/js/787.ce3b98a9.chunk.js",
+    "static/media/space-B-logo.svg": "/space-borne/static/media/space-B-logo.98da7ba45130ebf3d5e847ba6ad322bf.svg",
+    "index.html": "/space-borne/index.html",
+    "main.13fb2cba.css.map": "/space-borne/static/css/main.13fb2cba.css.map",
+    "main.17a05bcf.js.map": "/space-borne/static/js/main.17a05bcf.js.map",
+    "787.ce3b98a9.chunk.js.map": "/space-borne/static/js/787.ce3b98a9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.13fb2cba.css",
+    "static/js/main.17a05bcf.js"
+  ]
+}
